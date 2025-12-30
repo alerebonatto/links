@@ -68,15 +68,7 @@ body {
             rgb(182, 161, 182),
             rgba(255, 232, 255, 1)
         );
-/*     border-bottom-left-radius: 90% 10px;
-    border-bottom-right-radius: 90% 10px; */
-    /* background: url("./img/bgg.jpg");
-    background-position: center;
-    background-size: cover; */
-    /* filter: blur(1px); */
-    /* border: 10px black; */
-    
-   
+ 
 
 }
 .container-image{
@@ -111,6 +103,14 @@ body {
     margin-top: 10px;
     color: white;
     word-spacing: 0.8em;
+}
+.bio {
+  word-spacing: 0.9em;
+  text-transform: uppercase; /* opcional */
+}
+
+.final {
+  word-spacing: normal;
 }
 .titlee h1 {
     justify-content: center;
@@ -149,8 +149,6 @@ body {
     width: 90%;
     height: 50px;
     background-color: #d7c0d7;
-    /* border:2px solid black; */
-    /* border-radius: 50px; */
     text-decoration: none;
     color: #5d4a5e;
     display: flex;
@@ -160,11 +158,11 @@ body {
 box-shadow: 2px 2px 15px -2px rgba(0, 0, 0, 0.59);
 }
     .botoes i {
-        margin-left: 20px;
+        margin-left: 10px;
         font-size: 25px;
     }
     .botoes p {
-        flex: 0.85;
+        flex: 0.88;
         text-align: center;
         font-weight: 500;
         font-size: 15px;
